@@ -12,10 +12,10 @@ import Monitoring from './components/Monitoring/Monitoring'
 import Predictions from './components/Predictions/Predictions'
 
 // Login is currently implemented in JavaScript without TypeScript declarations.
-// @ts-expect-error The JavaScript module has no declaration file yet.
+
 import Login from './pages/Login'
 // ProtectedRoute is currently implemented in JavaScript without TypeScript declarations.
-// @ts-expect-error The JavaScript module has no declaration file yet.
+
 import ProtectedRoute from './components/ProtectedRoute'
 
 import { AnalysisProvider } from './AnalysisContext'
