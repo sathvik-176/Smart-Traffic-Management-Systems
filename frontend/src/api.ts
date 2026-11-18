@@ -1,4 +1,4 @@
-const API_URL = import.meta.env.VITE_API_URL;
+const API_URL = "https://trafficx-t1cm.onrender.com/";
 
 export type Direction = "north" | "south" | "east" | "west";
 
