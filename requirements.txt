@@ -8,3 +8,4 @@ pandas
 supabase
 python-dotenv
 pydantic
+email-validator
