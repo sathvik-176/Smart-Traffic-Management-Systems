@@ -1,0 +1,31 @@
+# Frontend
+**/node_modules
+frontend/dist
+**/.vite
+
+# Backend / Python
+**/venv
+**/.venv
+**/env
+**/__pycache__
+**/*.pyc
+**/.pytest_cache
+
+# Secrets (never ship these)
+**/.env
+**/.env.local
+
+# Git and editor files
+.git
+.gitignore
+.vscode
+.idea
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Logs and temp
+**/*.log
+**/uploads
+**/tmp
